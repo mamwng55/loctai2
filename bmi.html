@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>計算BMI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        form {
+            text-align: center;
+            width: 60%;
+            margin:0px auto;
+            padding:10px;
+            border-radius: 10px;
+        }
+    
+        input{
+            text-align: center;
+        }
+            /* <=1920 */
+        @media  and (max-width:1920px) {
+            form{
+                padding:0px 60px;
+            }
+
+            label,
+            input,
+            button{
+                width:100%
+            }
+            
+        }
+            /* <=768 */
+        @media  and (max-width:768px) {
+            
+            label,
+            input,
+            button{
+                width:80%
+            }            
+        }
+</head>
+</style>
+<body>
+    <h1>
+        <div id="container">
+        <div class="banner">BMI計算機</div>
+    </h1>
+        <form action="">
+        <label for="name">姓名</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="height">身高</label>
+        <input type="number" name="height" id="height">
+        <br>
+        <label for="name">體重</label>
+        <input type="number" name="weight" id="weight">
+        <br>
+        <button type="submit">計算</button>
+    </form>
+
+</div>  
+    <p class="footer">
+        <a href="index.html">返回首頁</a>
+    </p>
+
+
+
+</body>
+</html>

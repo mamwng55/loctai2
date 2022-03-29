@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(240, 234, 234);
+    font-family: 'DFKai-SB', PMingLiU, Microsoft JhengHei;  
+  }
+
+.banner{
+  background-color:#44516f;
+  color:lightgreen;
+  height: 100px;
+  font-size: 48px;
+  border-radius:10px;
+  /* top/bottom left/right */
+  padding: 10px 20px;
+  margin: 10px;
+  /* 水平 */
+  text-align: center;
+  /* 垂直 */
+  line-height: 100px;
+}
+#container{
+  width: 80%;
+  margin: 0px auto;   
+}
+
+.text-1{
+  font-size: 24px;
+  font-weight: bold;
+  padding:0px 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.text-2{
+  color:blueviolet;
+  padding:10px;
+}
+
+.text-3{
+  background-color: tomato;
+  border-radius: 5px;
+  color: pink;
+  padding: 20px;
+}
+
+.wording{
+  color:white;
+  font-size: 24px;
+  
+}
+
+#picture{
+  text-align:center;
+}
+
+#picture img{
+  border-radius: 10px;
+  margin:0px 10px;
+}
+
+.sub-title{
+  background-color: #44516f;
+  border-radius: 10px;
+  color:#ffffff;
+  padding:5px;
+  padding-left: 10px;
+}
+
+.block-1{
+  text-align: center;
+  font-size:18px;
+}
+
+.block-1 img{
+  width:100%
+}
+
+.block-1 ol{
+  list-style-type: none;
+  border: 1px dashed  cornflowerblue;
+  padding: 10px 0px;
+}
+
+.block-2{
+  font-size: 20px;
+  font-style: italic;
+  background-color: rgb(233, 197, 185);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.block-2 a{
+  color:green
+}
+
+.block-3{
+font-size: large;
+background-color: ;
+color: ;
+padding:10px
+
+}
+
+.block.3 table{
+  width:90%;
+  margin:0px auto;
+  height:200px;
+}
+.block-3 th{
+  background-color: cornsilk;
+  font-size: 20px;
+  color: brown;
+}
+
+.block-3 tr{
+  background-color: pink;
+  text-align:center;
+  font-size: 16px;
+  color: white;
+}
+
+.block-4{
+  background-color: rgb(238, 216, 220);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form{
+  padding:20px 0px;
+  background-color: lightcoral;
+}
+
+input, label, textarea, button{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+  width:100px;
+  background-color: green;
+  color: white;
+}
+
+.footer{
+  text-align: center;
+}
+
+#idol{
+  padding:20px;
+}
+
+#idol img{
+  border-radius: 10px;
+  float:right;
+  margin:20px;
+}
